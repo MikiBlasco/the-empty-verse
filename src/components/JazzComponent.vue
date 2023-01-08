@@ -1,16 +1,12 @@
 <template>
   <div>
     <img alt="Vue logo" src="../assets/logo.png" class="jazzPic" />
-    <h1>{{ msg }}</h1>
   </div>
 </template>
 
 <script>
 export default {
   name: "JazzComponent",
-  props: {
-    msg: String,
-  },
 };
 </script>
 

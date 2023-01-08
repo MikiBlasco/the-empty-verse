@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <JazzComponent msg="Welcome to the Jazz Empty Verse" />
-    <SecondComponent />
+    <JazzComponent />
+    <SecondComponent msg="Welcome to the JAZZ VERSE bitch!" />
   </div>
 </template>
 
@@ -13,9 +13,6 @@ export default {
   components: {
     JazzComponent,
     SecondComponent,
-  },
-  props: {
-    arrayApp: [],
   },
 };
 </script>
