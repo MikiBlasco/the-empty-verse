@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <JazzComponent msg="Welcome to the Jazz Empty Verse" />
+    <SecondComponent />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
+import JazzComponent from "./components/JazzComponent.vue";
+import SecondComponent from "./components/SecondComponent.vue";
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    JazzComponent,
+    SecondComponent,
+  },
+  props: {
+    arrayApp: [],
   },
 };
 </script>
@@ -22,7 +26,5 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
